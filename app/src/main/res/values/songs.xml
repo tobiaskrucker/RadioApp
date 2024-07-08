@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="songs">
+        <item>@array/song1</item>
+        <item>@array/song2</item>
+        <item>@array/song3</item>
+        <item>@array/song4</item>
+        <item>@array/song5</item>
+        <item>@array/song6</item>
+        <item>@array/song7</item>
+        <item>@array/song8</item>
+        <item>@array/song9</item>
+        <item>@array/song10</item>
+
+    </string-array>
+
+    <string-array name="song1">
+        <item>Civic</item>
+        <item>OG Keemo</item>
+        <item>Mann beisst Hund</item>
+    </string-array>
+
+    <string-array name="song2">
+        <item>Diamant</item>
+        <item>Yung Hurn</item>
+        <item>Love Hotel</item>
+    </string-array>
+
+    <string-array name="song3">
+        <item>Like a Rolling Stone</item>
+        <item>Bob Dylan</item>
+        <item>Highway 61 Revisited</item>
+    </string-array>
+
+    <string-array name="song4">
+        <item>Beat it</item>
+        <item>Michael Jackson</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string-array name="song5">
+        <item>Imagine</item>
+        <item>John Lennon</item>
+        <item>Imagine</item>
+    </string-array>
+
+    <string-array name="song6">
+        <item>Whats´s going on</item>
+        <item>Marvin Gaye</item>
+        <item>What´s going on</item>
+    </string-array>
+
+    <string-array name="song7">
+        <item>Respect</item>
+        <item>Aretha Franklin</item>
+        <item>I Never Loved a Man the Way I Love You</item>
+    </string-array>
+
+    <string-array name="song8">
+        <item>Good Vibrations</item>
+        <item>The Beach Boys</item>
+        <item>Smiley Smile</item>
+    </string-array>
+
+    <string-array name="song9">
+        <item>Hey Jude</item>
+        <item>The Beatles</item>
+        <item>Love</item>
+    </string-array>
+
+    <string-array name="song10">
+        <item>Smells like Teen Spirit</item>
+        <item>Nirvana</item>
+        <item>Nevermind</item>
+    </string-array>
+
+
+
+</resources>

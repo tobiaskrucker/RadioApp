@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Header">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="DefaultTextStyle">
+            <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

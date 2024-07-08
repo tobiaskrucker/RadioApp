@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioApp</string>
+
+    <string-array name="moderator_array">
+        <item>Julia Sommer</item>
+        <item>Max Winter</item>
+        <item>Hans Meier</item>
+    </string-array>
+</resources>
