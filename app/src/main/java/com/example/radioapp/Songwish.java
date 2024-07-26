@@ -54,7 +54,7 @@ public class Songwish extends AppCompatActivity {
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
                 emailIntent.setType("text/plain");
                 // Hier muss die E-Mail durch die E-Mail Adresse des Radiosenders ersetzt werden
-                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"Beispiel@mail.de"});
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"example@e-mail.de"});
                 emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Songwunsch");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, "Titel: " + song.getTitel()
                         + "\n Interpret: " + song.getInterpret() + "\n Album: " + song.getAlbum());

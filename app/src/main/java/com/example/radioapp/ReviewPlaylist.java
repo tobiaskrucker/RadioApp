@@ -45,14 +45,14 @@ ratePlaylist.setOnClickListener(new View.OnClickListener() {
     public void onClick(View v) {
         // Bewertung für Playlist erstellen
         stars = ratingBarPlaylist.getRating();
-        ratingTextView.setText("Sie haben die aktuelle Playlist mit " + stars + " Sternen bewertet \n Vielen Dank!");
+        ratingTextView.setText("Sie haben die aktuelle Playlist mit " + stars + " Sternen bewertet \nVielen Dank!");
         // Button deaktivieren
         ratePlaylist.setEnabled(false);
         // Intent zum Versender der Playlist-Bewertung per E-Mail an den Radiomoderator
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
         emailIntent.setType("text/plain");
         // Hier muss die E-Mail durch die E-Mail Adresse des Radiosenders ersetzt werden
-        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"tobi.krucker@gmx.de"});
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"example@e-mail.de"});
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Playlist Bewertung");
         emailIntent.putExtra(Intent.EXTRA_TEXT, "Sie haben eine Bewertung für Ihre Playlist erhalten!\n"
         + stars + " Sterne");
